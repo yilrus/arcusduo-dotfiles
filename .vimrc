@@ -36,3 +36,7 @@ set sessionoptions-=options
 " These make j and k behave normally when moving through wrapped lines.
 nmap j gj
 nmap k gk
+" case insensitive unless upper case included
+set ignorecase
+set smartcase
+

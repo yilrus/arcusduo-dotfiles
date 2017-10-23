@@ -29,5 +29,7 @@ set expandtab
 "python from powerline.vim import setup as powerline_setup
 "python powerline_setup()
 "python del powerline_setup
-execute pathogen#infect() " Runs pathogen, plugin manager. Puts things in .vim/bundle
-set sessionoptions-=options "fixes something to do with sessions and pathogen
+execute pathogen#infect() 
+" Runs pathogen, plugin manager. Puts things in .vim/bundle
+set sessionoptions-=options 
+"fixes something to do with sessions and pathogen

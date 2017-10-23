@@ -161,3 +161,4 @@ bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
 gaps inner 20
 for_window[class="^.*"] border pixel 3
 exec --no-startup-id feh --randomize --bg-fill  ~/wall/*
+exec "compton"

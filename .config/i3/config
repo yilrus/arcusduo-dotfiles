@@ -157,6 +157,7 @@ bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
 
 gaps inner 22
 for_window[class="^.*"] border pixel 3
+exec "~/.config/polybar/launch.sh"
 exec "xrdb -merge ~/.Xresources"
 exec "xinput set-prop 12 284 1"
 exec "xmodmap -e 'clear Lock'"

@@ -25,10 +25,7 @@ font pango:monospace 8
 # clear in small sizes. However, its unicode glyph coverage is limited, the old
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
-
-# Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
-
+# Use Mouse+$mod to drag floating windows to their wanted position floating_modifier $mod 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec "urxvt -e /usr/bin/zsh"
@@ -160,9 +157,10 @@ bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
 
 gaps inner 20
 for_window[class="^.*"] border pixel 3
+exec "xrdb -merge ~/.Xresources"
 exec "xinput set-prop 12 284 1"
-exec "xmodmap -e 'clear Lock'
-exec "xmodmap -e 'keycode 0x42=Escape'
+exec "xmodmap -e 'clear Lock'"
+exec "xmodmap -e 'keycode 0x42=Escape'"
 exec "parcellite"
 exec --no-startup-id feh --randomize --bg-fill  ~/wall/*
 exec "compton"

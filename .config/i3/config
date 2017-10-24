@@ -162,5 +162,5 @@ exec "xinput set-prop 12 284 1"
 exec "xmodmap -e 'clear Lock'"
 exec "xmodmap -e 'keycode 0x42=Escape'"
 exec "parcellite"
-exec --no-startup-id feh --randomize --bg-fill  ~/wall/*
+exec --no-startup-id feh --randomize --bg-fill  ~/media/pics/wall/*
 exec "compton"

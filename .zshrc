@@ -13,8 +13,8 @@
 #ZSH_THEME="agnoster"
 #ZSH_THEME="kolo"
 #ZSH_THEME="mrtazz"
-#ZSH_THEME="pygmalion"
-ZSH_THEME="philips"
+ZSH_THEME="pygmalion"
+#ZSH_THEME="philips"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

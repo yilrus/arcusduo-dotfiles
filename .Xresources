@@ -20,6 +20,9 @@ URxvt.cursorColor: #657b83
 URxvt.cursorUnderline: false
 URxvt.pointerBlank: true
 
+!!URxvt.transparent: true
+!!URxvt.shading: 0
+
 *background: #002b36
 *foreground: #657b83
 !!*fading: 40

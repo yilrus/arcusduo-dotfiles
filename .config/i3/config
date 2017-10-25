@@ -154,7 +154,8 @@ bindsym $mod+r mode "resize"
 #}
 bindsym $mod+g exec "google-chrome-stable"
 bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
-
+#bindsym $mod+- exec "light -U 10"
+#bindsym $mod++ exec "light -A 10"
 gaps inner 22
 for_window[class="^.*"] border pixel 3
 exec "~/.config/polybar/launch.sh"

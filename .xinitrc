@@ -1,3 +1,4 @@
+xbindkeys
 exec i3
 #exec bspwm
 #xmodmap -e 'clear Lock' #ensures you're not stuck in CAPS on mode

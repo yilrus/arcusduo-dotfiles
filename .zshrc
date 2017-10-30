@@ -108,5 +108,6 @@ alias myip='curl ip.appspot.com'
 alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias hn='hn --keep-open'
+alias cl='gcalccmd'
 #. /usr/share/zsh/site-contrib/powerline.zsh
 

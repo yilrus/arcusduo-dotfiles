@@ -155,12 +155,15 @@ bindsym $mod+r mode "resize"
 #}
 bindsym $mod+g exec "google-chrome-stable"
 bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
+bindsym $mod+z exec "lock"
 gaps inner 22
 for_window[class="^.*"] border pixel 3
 exec "~/.config/polybar/launch.sh"
 exec "xrdb -merge ~/.Xresources"
 exec "xmodmap -e 'clear Lock'"
 exec "xmodmap -e 'keycode 0x42=Escape'"
+exec "nm-applet"
 exec "parcellite"
-exec --no-startup-id feh --randomize --bg-fill  ~/media/pics/wall/*
+#exec --no-startup-id feh --randomize --bg-fill  ~/media/pics/wall/*
+exec "wal -i media/pics/wall/1508410942193.jpg"
 exec "compton"

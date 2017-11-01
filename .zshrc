@@ -112,3 +112,7 @@ alias cl='gcalccmd'
 #. /usr/share/zsh/site-contrib/powerline.zsh
 #PATH=$PATH:$HOME/.local/scripts
 export PATH=$PATH:$HOME/.local/scripts
+export VISUAL=/usr/bin/vim
+export EDITOR=/usr/bin/vim
+# set keybind mode to emacs
+set -o emacs

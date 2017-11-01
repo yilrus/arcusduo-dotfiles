@@ -156,7 +156,8 @@ bindsym $mod+r mode "resize"
 bindsym $mod+g exec "google-chrome-stable"
 bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
 bindsym $mod+z exec "lock"
-gaps inner 25
+gaps inner 5
+gaps outer -5
 for_window[class="^.*"] border pixel 3
 exec "~/.config/polybar/launch.sh"
 exec "xrdb -merge ~/.Xresources"

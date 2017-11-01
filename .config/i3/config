@@ -157,8 +157,8 @@ bindsym $mod+g exec "google-chrome-stable"
 bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
 bindsym $mod+z exec "lock"
 bindsym $mod+Shift+z exec "wal -i $HOME/media/pics/wall -o wal-set && ~/.config/polybar/launch.sh"
-gaps inner 10
-gaps outer -10
+gaps inner 20
+#gaps outer -10
 for_window[class="^.*"] border pixel 3
 exec "~/.config/polybar/launch.sh"
 exec "xrdb -merge ~/.Xresources"

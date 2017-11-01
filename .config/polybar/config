@@ -25,6 +25,7 @@ col = #00f
 ;bg = ${xrdb:color2}
 
 [bar/example]
+enable-ipc = true
 ;monitor = ${env:MONITOR:HDMI-1}
 ;monitor = ${env:MONITOR}
 monitor = ${env:MONITOR:LVDS-1}

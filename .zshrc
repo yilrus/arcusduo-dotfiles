@@ -109,6 +109,8 @@ alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias hn='hn --keep-open'
 alias cl='gcalccmd'
+alias ctrlc='xclip -selection clipboard -i'
+alias ctrlv='xclip -selection clipboard -o'
 #. /usr/share/zsh/site-contrib/powerline.zsh
 #PATH=$PATH:$HOME/.local/scripts
 export PATH=$PATH:$HOME/.local/scripts

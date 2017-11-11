@@ -179,6 +179,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+g exec "google-chrome-stable"
 bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
 bindsym $mod+c exec "gnome-calculator"
+bindsym $mod+Shift+x exec "urxvt --hold -e /usr/bin/neofetch"
 bindsym $mod+z exec "lock"
 #bindsym $mod+Shift+z exec "wal -i $HOME/media/pics/wall -o wal-set && ~/.config/polybar/launch.sh"
 gaps inner 20

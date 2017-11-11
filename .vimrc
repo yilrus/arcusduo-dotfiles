@@ -1,5 +1,6 @@
 " Centers cursor vertically.
 set so=999
+set relativenumber
 " Disables retarded os defaults
 set nocompatible
 
@@ -13,10 +14,9 @@ set ignorecase
 set smartcase
 set autoindent
 set backspace=indent,eol,start
-set nostartofline
+"set nostartofline
 set ruler
-" Disabled because it doesn't work with Powerline. If not using powerline,
-" turn on and make sure to use laststatus=2 as well
+" Disabled because it doesn't work with Powerline. If not using powerline, turn on and make sure to use laststatus=2 as well
 "set cmdheight=2
 set laststatus=2
 set confirm

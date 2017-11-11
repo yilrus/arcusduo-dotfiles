@@ -5,7 +5,7 @@ set relativenumber
 set number
 noremap <F1> :setlocal number!<cr>
 noremap <F2> :setlocal relativenumber!<cr>
-" this disables relative when focus is not on buffer.
+" this disables relative when focus is not on buffer. and switches to number only in insert mode
 augroup numbertoggle
    autocmd!
    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber

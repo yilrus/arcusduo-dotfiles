@@ -1,6 +1,8 @@
 " Centers cursor vertically.
 set so=999
 set relativenumber
+" changes to hybrid number mode
+set number
 " Disables retarded os defaults
 set nocompatible
 

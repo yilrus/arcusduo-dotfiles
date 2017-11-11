@@ -3,6 +3,14 @@ set so=999
 set relativenumber
 " changes to hybrid number mode
 set number
+noremap <F1> :setlocal number!<cr>
+noremap <F2> :setlocal relativenumber!<cr>
+" this disables relative when focus is not on buffer.
+augroup numbertoggle
+   autocmd!
+   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
 " Disables retarded os defaults
 set nocompatible
 

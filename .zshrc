@@ -116,5 +116,6 @@ alias ctrlv='xclip -selection clipboard -o'
 export PATH=$PATH:$HOME/.local/scripts
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
+export BROWSER="google-chrome-stable"
 # set keybind mode to emacs
 set -o emacs

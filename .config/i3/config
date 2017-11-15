@@ -181,7 +181,6 @@ bindsym $mod+x exec "urxvt -e /usr/bin/ranger"
 bindsym $mod+c exec "gnome-calculator"
 bindsym $mod+Shift+x exec "urxvt --hold -e /usr/bin/neofetch"
 bindsym $mod+z exec "lock"
-#bindsym $mod+Shift+z exec "wal -i $HOME/media/pics/wall -o wal-set && ~/.config/polybar/launch.sh"
 gaps inner 20
 #gaps outer -10
 for_window[class="^.*"] border pixel 3
@@ -191,6 +190,6 @@ exec "xmodmap -e 'clear Lock'"
 exec "xmodmap -e 'keycode 0x42=Escape'"
 exec "nm-applet"
 exec "parcellite"
-#exec --no-startup-id feh --randomize --bg-fill  ~/media/pics/wall/*
-exec "wal -i media/pics/wall/1508410942193.jpg"
+exec --no-startup-id feh --randomize --bg-fill  ~/media/pics/wall/*
+#exec "wal -i media/pics/wall/1508410942193.jpg"
 exec "compton"
